@@ -1,18 +1,20 @@
-## Виконання команд WP CLI
+# Docker  + Wordpress + WP_CLI +
 
-### Референси
+## Executing WP CLI commands
+
+### References
 
 * https://developer.wordpress.org/cli/commands/
 
-Отримуєму назву контейнера в якому запущено wordpess image:
+We get the name of the container in which the wordpress image is running:
 
 ``docker ps``
 
-В консолі, в колонці NAMES копіюємо назву
+In the console, in the NAMES column, copy the name
 
-Далі виконуємо потрібну нам команду:
+Next, execute the command we need:
 
-``sudo docker exec -it kvantum-electronicscomua_wordpress_1 wp fs yml_import --feed_id=3 --skip_exists=1 --allow-root``
+``sudo docker exec -it %container_name% wp %command_and_parameters% --allow-root``
 
 
 
