@@ -1,4 +1,4 @@
-# Docker  + Wordpress + WP_CLI +
+# Docker  + Wordpress (APACHE) + WP_CLI + XDEBUG
 
 ## Executing WP CLI commands
 
